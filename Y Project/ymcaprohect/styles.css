@@ -1,0 +1,241 @@
+/* This sets the background color for my pages */
+body {
+  background-color: lightyellow;
+}
+
+body.gaming{background-image:url(white2.PNG);}
+body.food{background-image:url(white3.PNG);}
+body.shows{background-image:url(white4.PNG);}
+body.vietnam{background-image:url(white5.PNG);}
+
+/* This sets the styling for my images for my pages*/
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+/* Sets the style for header 1 */
+h1 {
+  color: orange;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Fjalla One", sans-serif;
+}
+
+/* Sets the style for header 2 */
+h2 {
+  color: orange;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  font-family: "Fjalla One", sans-serif;
+
+}
+
+/* Sets the style for header 3 */
+h3 {
+  color: orange;
+  font-size: 40px;
+  text-align: center;
+  display: block;
+  font-family: "Fjalla One", sans-serif;
+
+}
+
+/* Sets the style for my header 4, I used this for my contact us */
+h4 {
+	width: 100%;
+	text-align: center;
+	list-style: none;
+    font-size: 20px; 
+	
+}
+
+/* Sets the style for my body paragraph */
+p {
+  color: black;
+  font-size: 35px;
+  text-align: center;
+  font-family: "Libre Baskerville", sans-serif;
+}
+
+button {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 5%;
+}
+
+/* Sets the style for my hyperlinks */
+nav {
+	width: 100%;
+	text-align: center;
+	list-style: none;
+	background-color: orange;
+	border: 2px solid black;
+    font-size: 35px; 
+}
+nav li {
+	text-align: center;
+	display: inline-block;
+	list-style: none;
+	
+}
+
+/* Sets the style for the text inside the nav bar */
+nav li a {
+	display: block;
+	padding: 10px 40px;
+	text-decoration: none;
+	font-weight: bold;
+	color: lightyellow;
+	border: 2px solid black; 
+}
+
+/* Sets the color to yellow when users hover over. */
+nav li a:hover {
+	color: lightyellow;
+	background-color: black; 
+}
+
+/* Styles my table by making it center and adjusting the size */
+table {
+  margin-right: auto;
+  margin-left: auto;
+  border-collapse: collapse;
+  text-align: center;
+  width: 65%;
+}
+
+/* Alligns my text and makes the boarder more bold. */
+th, td {
+  border: 2px solid black;
+  text-align: center;
+}
+
+/* This styles my figure for my slider. */
+#slider {
+	overflow: hidden;
+}
+
+/* This styles my figure for my slideshow. */
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 10s slider infinite;
+}
+
+/* This styles figure image with float and width */
+#slider figure img {
+	float: left;
+	width: 20%;
+}
+
+/* This allows for me to style my keyframes, allowing for the slideshow effect. */
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+
+	20% {
+		left: 0;
+	}
+
+	25% {
+		left: -100%;
+	}
+
+	45% {
+		left: -100%;
+	}
+
+	50% {
+		left: -200%;
+	}
+
+	70% {
+		left: -200%;
+	}
+
+	75% {
+		left: -300%;
+	}
+
+	95% {
+		left: -300%;
+	}
+
+	100% {
+		left: -400%
+	}
+}
+
+/* Styles for my highlight animation. */
+.highlight {
+    width: 600px;
+	font-size: 40px;
+    margin: -15px auto 5px auto;
+    background-size: 200%;
+	border-radius: 40px;
+    animation-name: highlight;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+	animation-iteration-count:infinite;
+    background-image: linear-gradient(to right, #bed3b4 50%, transparent 50%);
+}
+
+/* Styles for my highlight animation. */
+@keyframes highlight {
+	from {
+		background-position: 0;
+	}
+
+	to {
+		background-position: -100%;
+	}
+}
+
+/* Allows for the image to rotate infinitly. */
+.rotate {
+  animation: rotation 8s infinite linear;
+}
+
+/* Rotates my image so that its able to do a full 359 deg. */
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+
+
+
+.red-row {
+    background-color: red;
+}
+
+.yellow-row {
+    background-color: yellow;
+}
+
+.green-row {
+    background-color: green;
+}
+
+
+.grey-row {
+    background-color: grey;
+}
+
+
+
+
+/** Hiep Nguyen
+    January 26th, 2023
+	5:00 PM
+	mystyles.css */
+	

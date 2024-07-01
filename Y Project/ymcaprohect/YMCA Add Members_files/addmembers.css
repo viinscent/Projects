@@ -1,0 +1,188 @@
+/* Sets the style for my hyperlinks */
+html, body {
+	height: 98%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 1.5%;
+}
+
+.container {
+	padding-top: 2.5%;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	max-width: 18%;
+  margin: 0px auto 0px;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 5%;
+}
+
+.bodycontainer {
+	max-width: 95%;
+	background-color: lightgrey;
+	margin: auto;
+	border-radius: 20px;
+	margin-top: 50px;
+	padding-bottom: 5%;
+}
+
+nav {
+	width: 100%;
+	text-align: center;
+	list-style: none;
+	background-color: #92278e;
+	border: 2px solid #92278e;
+	border-radius: 20px;
+  font-size: 35px;
+  font-family: "Fjalla One", sans-serif;
+}
+
+nav li {
+	text-align: center;
+	display: inline-block;
+	list-style: none;
+	
+}
+
+/* Sets the style for the text inside the nav bar */
+nav li a {
+	display: block;
+	padding: 10px 40px;
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	border: 2px solid #92278e; 
+	border-radius: 20px;
+}
+
+/* Sets the color to yellow when users hover over. */
+nav li a:hover {
+	color: #92278e;
+	background-color: white; 
+}
+
+nav li.currentpage a {
+	color: #92278e;
+	background-color: white;
+}
+
+/* Styles my table by making it center and adjusting the size */
+table {
+  margin-right: auto;
+  margin-left: auto;
+  border-collapse: collapse;
+  text-align: center;
+  width: 65%;
+}
+/* This sets the styling for my images for my pages*/
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55.2%;
+  padding-top: 3%;
+  padding-bottom: 1.5%;
+}
+/* ADD MEMBERS */
+
+/* fill out the form below to add a member */
+h2 {
+  color: #92278e;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  font-family: "Fjalla One", sans-serif;
+  padding-top: 13.5%;
+  font-size: 20px;
+
+}
+
+/* Full Name (Include middle name) Date Of Birth: */
+.bday {
+	width: 100%;
+	text-align: left;
+	list-style: none;
+    font-size: 20px; 
+    font-family: "Fjalla One", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+	
+}
+
+.name {
+	width: 100%;
+	text-align: left;
+	list-style: none;
+  font-size: 20px; 
+  font-family: "Fjalla One", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+	
+}
+
+label .gen {
+	width: 100%;
+	text-align: left;
+	list-style: none;
+  font-size: 20px; 
+  font-family: "Fjalla One", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+}
+	
+
+/* Current Age: */
+.button {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Fjalla One", sans-serif;
+  padding-bottom: 15%;
+}
+
+.age {
+	font-family: "Fjalla One", sans-serif;
+	font-size: 20px;
+	padding-bottom: 5%;
+}
+
+.copyright {
+	font-family: "Fjalla One", sans-serif;
+	font-size: 14px;
+	text-align: center;
+	padding-top: 3px;
+}
+
+
+form {
+  text-align: center;
+}
+
+form p {
+  text-align: center;
+}
+
+form input[type="submit"] {
+  display: block;
+  margin: 0 auto;
+}
+
+h4{
+	width: 100%;
+	text-align: left;
+	list-style: none;
+  font-size: 20px; 
+  font-family: "Fjalla One", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.link {
+	color: #92278e;
+	text-decoration: none;
+}
+
+
+/* END OF ADD MEMBERS */
+
